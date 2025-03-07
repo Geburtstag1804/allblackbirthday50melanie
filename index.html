@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Black Party RSVP</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Bist Du dabei?</h1>
+    <hr>
+
+    <div>
+      <label-name for="name">Name:</label-name>
+      <input type="text" id="name" class="input-name" placeholder="Name, Vorname" />
+    </div>
+
+   <br>
+
+    <div>
+      <label-answer for="answer">Zusage oder Absage:</label-answer>
+      <select id="answer">
+        <option value="yes">Zusage</option>
+        <option value="no">Absage</option>
+      </select>
+    </div>
+
+   <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div style="margin-top: 30px;">
+      <label>Ich komme...</label>
+    </div>
+
+   <br><br>
+
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" id="alleine" onclick="toggleInputs()"> alleine
+      </label>
+      <label>
+        <input type="checkbox" id="kind" onclick="toggleInputs()"> mit Kind(ern):  
+        <input type="number" id="children_count" class="input-anzahl" min="1" placeholder="Anzahl der Kinder" />
+      </label>
+      <label>
+        <input type="checkbox" id="partner" onclick="toggleInputs()"> mit Partner/-in
+      </label>
+      <label>
+        <input type="checkbox" id="sonstiges" onclick="toggleInputs()"> sonstiges:
+        <input type="text" id="other_details" class="input-sonstiges" placeholder="Hund, Alkohol🤪..." disabled />
+      </label>
+    </div>
+
+    <button onclick="submitRSVP()">Abschicken</button>
+  </div>
+</body>
+</html>

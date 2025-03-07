@@ -1,0 +1,190 @@
+body {
+  background: url('img/bild.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: Impact, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2120px;
+  width: 1208px;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  width: 90%;
+  max-width: 500px;
+  position: absolute;
+  left: 135px;
+  top: 940px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: left;
+  position: absolute;
+  left: 1px;
+  top: -145px;
+}
+
+hr {
+  width: 49%;
+  margin: 10px auto;
+  border: 1px solid white;
+  position: absolute;
+  left: 2px;
+  top: -60px;
+}
+
+label {
+  font-size: 36px;
+  display: inline-block;
+}
+
+input {
+  width: 10px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 28px;
+}
+
+select {
+  width: 250px;
+  height: 90px;
+  padding: 10px;
+  border-radius: 8px;
+  background: grey;
+  color: white;
+  border: 2px solid white;
+  font-size: 28px;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  top: 150px;
+  left: 380px;
+}
+
+.input-anzahl {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  background: grey;
+  color: white;
+  border: 2px solid white;
+  font-size: 28px;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  top: 480px;
+  left: 280px;
+}
+
+.input-sonstiges {
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  background: grey;
+  color: white;
+  border: 2px solid white;
+  font-size: 28px;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  top: 610px;
+  left: 240px;
+}
+
+.input-name {
+  width: 340px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  background: grey;
+  color: white;
+  border: 2px solid white;
+  font-size: 28px;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  left: 180px;
+  top: 20px;
+}
+
+label-name,
+label-answer {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  left: 1px;
+}
+
+label-answer {
+  top: 150px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  position: left;
+  margin-bottom: 30px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  margin-right: 100px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
+.small-input {
+  width: 20px;
+  text-align: center;
+  margin-left: 10px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 12px;
+  background: grey;
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+  position: absolute;
+  top: 780px;
+  left: 20px;
+}
+
+button:hover {
+  background: lightgray;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 780px;
+  left: 20px;
+}
