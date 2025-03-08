@@ -1,5 +1,5 @@
 body {
-  background: url(bild.png') no-repeat center center fixed;
+  background: url('img/Bild.png') no-repeat center center fixed;
   background-size: cover;
   color: white;
   font-family: Impact, sans-serif;
